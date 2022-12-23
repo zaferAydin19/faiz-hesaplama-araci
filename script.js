@@ -2,7 +2,6 @@ const displayMessage = function(message){
     document.querySelector('.message').textContent = message;
 }
  
-
  const getSelectValue = function () {
     var selectedValue = document.getElementById('list').value;
     var selectedVade = parseInt(selectedValue);
